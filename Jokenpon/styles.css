@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url('https://wallpapers.com/images/featured/solid-blue-lhmns06nptr6mvy2.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#computer {
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  display: flex;
+  text-align: center;
+  background-color: rgba(100, 100, 100, 0.5);
+  border: solid 1px #F2EFE7;
+  padding: 20px 40px;
+  gap: 0.75rem;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #38A6A7;
+  border: none;
+  padding: 1.5rem;
+  font-size: 1.2em;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9ACBD0;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
